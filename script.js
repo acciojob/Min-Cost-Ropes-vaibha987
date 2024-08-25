@@ -3,7 +3,7 @@ function mincost(arr)
 //write your code here
 // return the min cost
 let totalCost=0
-for(let i=0;i<=arr.length;i++){
+while(arr.length > 1)
 arr.sort((a,b)=>{
    return a-b
 })
