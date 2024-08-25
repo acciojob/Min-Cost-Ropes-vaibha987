@@ -14,5 +14,6 @@ arr.push(cost)
 totalCost=totalCost+cost
   
 }
-
+return totalCost	
+}
 module.exports=mincost;
